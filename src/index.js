@@ -1,10 +1,10 @@
 import './styles/main.scss'
 import * as THREE from 'three'
 
-// import coverWithFrame from './assets/coverWithFrame.svg'
-// const coverWithFrameImg = document.getElementById('coverWithFrameImg')
-// coverWithFrameImg.src = coverWithFrame
+import logoLrg from './assets/logo.png'
+const logoLargeImg = document.getElementById('logoLargeImg')
+logoLargeImg.src = logoLrg
 
-import logo from './assets/logo.png'
-const logoImg = document.getElementById('logoImg')
-logoImg.src = logo
+import logoSml from './assets/logo.png'
+const logoSmallImg = document.getElementById('logoSmallImg')
+logoSmallImg.src = logoSml

@@ -5,7 +5,8 @@ module.exports = {
     mode: 'development',
 
     entry: {
-        bundle: path.resolve(__dirname, 'src/index.js')
+        bundle: path.resolve(__dirname, 'src/index.js'),
+        animations: path.resolve(__dirname, 'src/animations.js')
     },
 
     output: {

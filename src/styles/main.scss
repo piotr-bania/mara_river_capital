@@ -28,8 +28,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 0.9;
     letter-spacing: 2px;
     height: 100vh;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -40,11 +42,12 @@ h2,
 h3,
 h4 {
     font-family: meno-banner, serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
+    letter-spacing: 3px;
     line-height: 1.2;
     color: $accent;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 p {
@@ -52,11 +55,11 @@ p {
     font-weight: 100;
     font-style: normal;
     line-height: 1.4;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 h1 {
-    font-size: 3.157rem;
+    font-size: 3.4rem;
 }
 
 li {
@@ -78,33 +81,50 @@ li {
 
 // ------------------------------ Images  ------------------------------
 
-#coverRomboidImg {
-    background-image: url(../assets/coverWithFrame.svg);
+.coverRomboidImg {
+    position: fixed;
+    background-image: url(../assets/coverRomboid.svg);
     height: 100vh;
     width: 100%;
-    background-size: contain;
     background-position: center;
-    opacity: 0.9;
-    transition: all 1.5s ease-in-out;
-
-    &:hover {
-        transform: scale(3);
-        opacity: 0;
-    }
+    opacity: 0.7;
 }
 
-#logoImg {
+.coverSquare {
+    position: fixed;
+    background-image: url(../assets/coverSquare.svg);
+    height: calc(100vh - 80px);
+    width: calc(100vw - 80px);
+    background-position: center;
+    opacity: 0;
+}
+
+#logoLargeImg {
     position: absolute;
     height: 115px;
+    z-index: 5;
 }
+
+#logoSmallImg {
+    position: fixed;
+    top: 75px;
+    left: 85px;
+    height: 70px;
+    z-index: 5;
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+
 
 // ------------------------------ Navigtion ------------------------------
 
 .links {
     position: fixed;
     top: 90px;
-    right: 60px;
+    right: 50px;
     text-align: end;
+    opacity: 0.9;
     z-index: 5;
 
     li:after {
@@ -118,6 +138,7 @@ li {
         top: -2px;
         left: 20px;
         margin-right: 30px;
+        opacity: 0.9;
         transition: all 0.5s ease-in-out;
     }
 
@@ -191,16 +212,21 @@ footer {
 
 // ------------------------------ Page 1 ------------------------------
 
-.header1 {
+#header1 {
     position: fixed;
     top: 25vw;
-    left: 15vw;
-    max-width: 30vw;
+    left: 14vw;
+    max-width: 32vw;
+    z-index: 5;
+    opacity: 0;
 }
 
-.paragraph1 {
+#paragraph1 {
     position: fixed;
     top: 25vw;
-    right: 13vw;
+    right: 14vw;
     max-width: 32vw;
+    font-size: 0.9;
+    z-index: 5;
+    opacity: 0;
 }
