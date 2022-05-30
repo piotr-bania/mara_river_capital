@@ -1,3 +1,7 @@
 import './styles/main.scss'
+import * as THREE from 'three'
 
-console.log(123)
+import cover from './assets/cover.svg'
+
+const coverImg = document.getElementById('coverImg')
+coverImg.src = cover

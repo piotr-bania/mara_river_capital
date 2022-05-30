@@ -10,7 +10,21 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name][contenthash].js'
+        filename: '[name][contenthash].js',
+        clean: true,
+        assetModuleFilename: '[name][ext]'
+    },
+
+    devtool: 'source-map',
+    devServer: {
+        static: {
+            directory: path.resolve(__dirname, 'dist')
+        },
+        port: 3000,
+        open: true,
+        hot: true,
+        compress: true,
+        historyApiFallback: true
     },
 
     module: {
@@ -24,7 +38,25 @@ module.exports = {
                     'css-loader',
                     'sass-loader'
                 ]
-            }
+            },
+
+            // Babel
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env']
+                    }
+                }
+            },
+
+            // Images
+            {
+                test: /\.(png|svg|jpeg|jpg|gif)$/i,
+                type: 'asset/resource'
+            },
         ]
     },
 
