@@ -6403,6 +6403,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/gsap-core.js");
 
 
+var btnHome = document.querySelector('.btnHome');
 var btnAbout = document.querySelector('.btnAbout');
 var romboid = document.querySelector('.coverRomboidImg');
 var square = document.querySelector('.coverSquare');
@@ -6454,8 +6455,21 @@ tl.fromTo(paragraph, {
 btnAbout.addEventListener('click', function () {
   tl.play();
 });
+btnHome.addEventListener('click', function (e) {
+  if (tl.isActive()) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    return false;
+  }
+
+  tl.reverse();
+});
+
+function toggleTween(tween) {
+  tween.reversed() ? tween.play() : tween.reversed();
+}
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=animations71f6b8170eef065e41a5.js.map
+//# sourceMappingURL=animations6e82efea26b52798a6d3.js.map

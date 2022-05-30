@@ -11,6 +11,7 @@ import {
     Expo
 } from "gsap"
 
+const btnHome = document.querySelector('.btnHome')
 const btnAbout = document.querySelector('.btnAbout')
 const romboid = document.querySelector('.coverRomboidImg')
 const square = document.querySelector('.coverSquare')
@@ -51,7 +52,7 @@ tl.fromTo(header, {
     opacity: 0,
     y: 250,
     ease: Power2.easeOut
-},  {
+}, {
     opacity: 1,
     y: 0,
     duration: 1.5
@@ -70,3 +71,16 @@ tl.fromTo(paragraph, {
 btnAbout.addEventListener('click', () => {
     tl.play()
 })
+
+btnHome.addEventListener('click', (e) => {
+    if (tl.isActive()) {
+        e.preventDefault()
+        e.stopImmediatePropagation()
+        return false
+    }
+    tl.reverse()
+})
+
+function toggleTween(tween) {
+    tween.reversed() ? tween.play() : tween.reversed()
+}
