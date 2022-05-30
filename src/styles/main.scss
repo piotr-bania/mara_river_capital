@@ -1,32 +1,129 @@
-$primary-color: #0d3338;
-$secondary-color: #AFD051;
-$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+$primary: #0d3338;
+$accent: #AFD051;
+$white: #FFFFFF;
+$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
+0 6px 6px rgba(0, 0, 0, 0.1);
 
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-  }
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
 
-  body {
+html {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+    margin: auto;
+}
+
+body {
     // background-color: $primary-color;
-    color: $secondary-color;
+    background-image: url(../assets/mara.jpg);
+    color: $white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    letter-spacing: 2px;
     height: 100vh;
     overflow: hidden;
-    margin: 0;
-    padding: 20px;
-  }
+}
 
-#coverImg {
-    height: 100%;
-    width: 100%;
+// ------------------------------ Fonts ------------------------------
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: meno-banner, serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.1;
+    color: $accent;
     opacity: 0.8;
+}
+
+p {
+    font-family: ff-real-text-pro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.4;
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 3.157rem;
+}
+
+li {
+    text-transform: uppercase;
+    font-family: meno-banner, serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 3px;
+    color: $accent;
+    cursor: pointer;
+    margin: 20px;
+    opacity: 0.8;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        color: var(--white);
+    }
+}
+
+#coverWithFrameImg {
+    position: absolute;
+    vertical-align: middle;
+    // top: 0;
+    // left: 0;
+    // height: 100vh;
+    // width: 100vw;
+    opacity: 0.9;
     transition: all 1.5s ease-in-out;
 
     &:hover {
         transform: scale(3);
         opacity: 0;
+    }
+}
+
+#image {
+    background-image: url(../assets/coverWithFrame.svg);
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.9;
+    transition: all 1.5s ease-in-out;
+
+    &:hover {
+        transform: scale(3);
+        opacity: 0;
+    }
+}
+
+#logoImg {
+    position: absolute;
+    height: 115px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 50px;
+    color: $white;
+
+    a {
+        color: $accent;
     }
 }
