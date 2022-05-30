@@ -16,12 +16,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/mara.jpg */ "./src/assets/mara.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/coverWithFrame.svg */ "./src/assets/coverWithFrame.svg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  background-color: black;\n  color: white;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAAA;EACI,uBAAA;EACA,YAAA;AACJ","sourcesContent":["body {\r\n    background-color: black;\r\n    color: white;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*,\n*::before,\n*::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  text-decoration: none;\n  list-style: none;\n}\n\nhtml {\n  box-sizing: inherit;\n  scroll-behavior: smooth;\n  margin: auto;\n}\n\nbody {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  color: #FFFFFF;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  letter-spacing: 2px;\n  height: 100vh;\n  overflow: hidden;\n}\n\nh1,\nh2,\nh3,\nh4 {\n  font-family: meno-banner, serif;\n  font-weight: 400;\n  font-style: normal;\n  line-height: 1.1;\n  color: #AFD051;\n  opacity: 0.8;\n}\n\np {\n  font-family: ff-real-text-pro, sans-serif;\n  font-weight: 100;\n  font-style: normal;\n  line-height: 1.4;\n  opacity: 0.8;\n}\n\nh1 {\n  font-size: 3.157rem;\n}\n\nli {\n  text-transform: uppercase;\n  font-family: meno-banner, serif;\n  font-weight: 100;\n  font-style: normal;\n  letter-spacing: 3px;\n  color: #AFD051;\n  cursor: pointer;\n  margin: 20px;\n  opacity: 0.8;\n  transition: all 0.5s ease-in-out;\n}\nli:hover {\n  color: var(--white);\n}\n\n#coverWithFrameImg {\n  position: absolute;\n  vertical-align: middle;\n  opacity: 0.9;\n  transition: all 1.5s ease-in-out;\n}\n#coverWithFrameImg:hover {\n  transform: scale(3);\n  opacity: 0;\n}\n\n#image {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  height: 100vh;\n  width: 100%;\n  background-size: contain;\n  background-position: center;\n  opacity: 0.9;\n  transition: all 1.5s ease-in-out;\n}\n#image:hover {\n  transform: scale(3);\n  opacity: 0;\n}\n\n#logoImg {\n  position: absolute;\n  height: 115px;\n}\n\nnav {\n  position: fixed;\n  top: 0;\n  left: 0;\n}\n\nfooter {\n  position: fixed;\n  bottom: 50px;\n  color: #FFFFFF;\n}\nfooter a {\n  color: #AFD051;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAMA;;;EAGI,sBAAA;EACA,SAAA;EACA,UAAA;EACA,qBAAA;EACA,gBAAA;AALJ;;AAQA;EACI,mBAAA;EACA,uBAAA;EACA,YAAA;AALJ;;AAQA;EAEI,yDAAA;EACA,cAvBI;EAwBJ,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;EACA,gBAAA;AANJ;;AAWA;;;;EAII,+BAAA;EACA,gBAAA;EACA,kBAAA;EACA,gBAAA;EACA,cA5CK;EA6CL,YAAA;AARJ;;AAWA;EACI,yCAAA;EACA,gBAAA;EACA,kBAAA;EACA,gBAAA;EACA,YAAA;AARJ;;AAWA;EACI,mBAAA;AARJ;;AAWA;EACI,yBAAA;EACA,+BAAA;EACA,gBAAA;EACA,kBAAA;EACA,mBAAA;EACA,cAlEK;EAmEL,eAAA;EACA,YAAA;EACA,YAAA;EACA,gCAAA;AARJ;AAUI;EACI,mBAAA;AARR;;AAYA;EACI,kBAAA;EACA,sBAAA;EAKA,YAAA;EACA,gCAAA;AAbJ;AAeI;EACI,mBAAA;EACA,UAAA;AAbR;;AAiBA;EACI,yDAAA;EACA,aAAA;EACA,WAAA;EACA,wBAAA;EACA,2BAAA;EACA,YAAA;EACA,gCAAA;AAdJ;AAgBI;EACI,mBAAA;EACA,UAAA;AAdR;;AAkBA;EACI,kBAAA;EACA,aAAA;AAfJ;;AAkBA;EACI,eAAA;EACA,MAAA;EACA,OAAA;AAfJ;;AAkBA;EACI,eAAA;EACA,YAAA;EACA,cAzHI;AA0GR;AAiBI;EACI,cA7HC;AA8GT","sourcesContent":["$primary: #0d3338;\r\n$accent: #AFD051;\r\n$white: #FFFFFF;\r\n$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),\r\n0 6px 6px rgba(0, 0, 0, 0.1);\r\n\r\n*,\r\n*::before,\r\n*::after {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n    text-decoration: none;\r\n    list-style: none;\r\n}\r\n\r\nhtml {\r\n    box-sizing: inherit;\r\n    scroll-behavior: smooth;\r\n    margin: auto;\r\n}\r\n\r\nbody {\r\n    // background-color: $primary-color;\r\n    background-image: url(../assets/mara.jpg);\r\n    color: $white;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    letter-spacing: 2px;\r\n    height: 100vh;\r\n    overflow: hidden;\r\n}\r\n\r\n// ------------------------------ Fonts ------------------------------\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4 {\r\n    font-family: meno-banner, serif;\r\n    font-weight: 400;\r\n    font-style: normal;\r\n    line-height: 1.1;\r\n    color: $accent;\r\n    opacity: 0.8;\r\n}\r\n\r\np {\r\n    font-family: ff-real-text-pro, sans-serif;\r\n    font-weight: 100;\r\n    font-style: normal;\r\n    line-height: 1.4;\r\n    opacity: 0.8;\r\n}\r\n\r\nh1 {\r\n    font-size: 3.157rem;\r\n}\r\n\r\nli {\r\n    text-transform: uppercase;\r\n    font-family: meno-banner, serif;\r\n    font-weight: 100;\r\n    font-style: normal;\r\n    letter-spacing: 3px;\r\n    color: $accent;\r\n    cursor: pointer;\r\n    margin: 20px;\r\n    opacity: 0.8;\r\n    transition: all 0.5s ease-in-out;\r\n\r\n    &:hover {\r\n        color: var(--white);\r\n    }\r\n}\r\n\r\n#coverWithFrameImg {\r\n    position: absolute;\r\n    vertical-align: middle;\r\n    // top: 0;\r\n    // left: 0;\r\n    // height: 100vh;\r\n    // width: 100vw;\r\n    opacity: 0.9;\r\n    transition: all 1.5s ease-in-out;\r\n\r\n    &:hover {\r\n        transform: scale(3);\r\n        opacity: 0;\r\n    }\r\n}\r\n\r\n#image {\r\n    background-image: url(../assets/coverWithFrame.svg);\r\n    height: 100vh;\r\n    width: 100%;\r\n    background-size: contain;\r\n    background-position: center;\r\n    opacity: 0.9;\r\n    transition: all 1.5s ease-in-out;\r\n\r\n    &:hover {\r\n        transform: scale(3);\r\n        opacity: 0;\r\n    }\r\n}\r\n\r\n#logoImg {\r\n    position: absolute;\r\n    height: 115px;\r\n}\r\n\r\nnav {\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n}\r\n\r\nfooter {\r\n    position: fixed;\r\n    bottom: 50px;\r\n    color: $white;\r\n\r\n    a {\r\n        color: $accent;\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -135,6 +142,44 @@ module.exports = function (cssWithMappingToString) {
   };
 
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+
+  if (!url) {
+    return url;
+  }
+
+  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
+
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
 };
 
 /***/ }),
@@ -530,6 +575,26 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/assets/coverWithFrame.svg":
+/*!***************************************!*\
+  !*** ./src/assets/coverWithFrame.svg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "coverWithFrame.svg";
+
+/***/ }),
+
+/***/ "./src/assets/logo.png":
+/*!*****************************!*\
+  !*** ./src/assets/logo.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "logo.png";
+
+/***/ }),
+
 /***/ "./src/assets/mara.jpg":
 /*!*****************************!*\
   !*** ./src/assets/mara.jpg ***!
@@ -565,6 +630,9 @@ module.exports = __webpack_require__.p + "mara.jpg";
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -639,6 +707,32 @@ module.exports = __webpack_require__.p + "mara.jpg";
 /******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"bundle": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -653,14 +747,17 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
-/* harmony import */ var _assets_mara_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/mara.jpg */ "./src/assets/mara.jpg");
+/* harmony import */ var _assets_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/logo.png */ "./src/assets/logo.png");
+
+ // import coverWithFrame from './assets/coverWithFrame.svg'
+// const coverWithFrameImg = document.getElementById('coverWithFrameImg')
+// coverWithFrameImg.src = coverWithFrame
 
 
-
-var maraImg = document.getElementById('maraImg');
-maraImg.src = _assets_mara_jpg__WEBPACK_IMPORTED_MODULE_1__;
+var logoImg = document.getElementById('logoImg');
+logoImg.src = _assets_logo_png__WEBPACK_IMPORTED_MODULE_1__;
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle06ee0dcb03d13bf83b4b.js.map
+//# sourceMappingURL=bundlea82626a40129e007b624.js.map
