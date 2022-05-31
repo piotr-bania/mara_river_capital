@@ -1,14 +1,7 @@
 import './styles/main.scss'
 import {
     gsap,
-    Power0,
-    Power1,
-    Power2,
-    Power3,
-    Power4,
-    Circ,
-    Sine,
-    Expo
+    Power2
 } from "gsap"
 
 const btnHome = document.querySelector('.btnHome')
@@ -73,6 +66,19 @@ btnAbout.addEventListener('click', () => {
 })
 
 btnHome.addEventListener('click', (e) => {
+    if (tl.isActive()) {
+        e.preventDefault()
+        e.stopImmediatePropagation()
+        return false
+    }
+    tl.reverse()
+})
+
+logoSml.addEventListener('click', () => {
+    tl.play()
+})
+
+logoSml.addEventListener('click', (e) => {
     if (tl.isActive()) {
         e.preventDefault()
         e.stopImmediatePropagation()
