@@ -22,15 +22,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/mara.jpg */ "./src/assets/mara.jpg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/coverRomboid.svg */ "./src/assets/coverRomboid.svg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/coverSquare.svg */ "./src/assets/coverSquare.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/fonts/Canela/Canela-Light.otf */ "./src/assets/fonts/Canela/Canela-Light.otf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/fonts/Canela/Canela-Thin.otf */ "./src/assets/fonts/Canela/Canela-Thin.otf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/fonts/RTRondelle/RTRondelle-Book.otf */ "./src/assets/fonts/RTRondelle/RTRondelle-Book.otf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/fonts/RTRondelle/RTRondelle-Light.otf */ "./src/assets/fonts/RTRondelle/RTRondelle-Light.otf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../../../../src/assets/fonts/RTRondelle/RTRondelle-Thin.otf */ "./src/assets/fonts/RTRondelle/RTRondelle-Thin.otf"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/coverRomboid.svg */ "./src/assets/images/coverRomboid.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/coverSquare.svg */ "./src/assets/images/coverSquare.svg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/mara.jpg */ "./src/assets/images/mara.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);
+var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);
+var ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*,\n*::before,\n*::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  text-decoration: none;\n  list-style: none;\n}\n\nhtml {\n  box-sizing: inherit;\n  scroll-behavior: smooth;\n  margin: auto;\n}\n\nbody {\n  color: #FFFFFF;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  font-size: 0.9;\n  letter-spacing: 2px;\n  height: 100vh;\n  width: 100%;\n  overflow: hidden;\n}\n\n.background {\n  background-color: #0d3338;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\nh1,\nh2,\nh3,\nh4 {\n  font-family: meno-banner, serif;\n  font-weight: 300;\n  font-style: normal;\n  letter-spacing: 3px;\n  line-height: 1.2;\n  color: #AFD051;\n  opacity: 0.9;\n}\n\np {\n  font-family: ff-real-text-pro, sans-serif;\n  font-weight: 100;\n  font-style: normal;\n  line-height: 1.4;\n  opacity: 0.9;\n}\n\nh1 {\n  font-size: 3.4rem;\n}\n\nli {\n  text-transform: uppercase;\n  font-family: meno-banner, serif;\n  font-weight: 100;\n  font-style: normal;\n  color: #AFD051;\n  cursor: pointer;\n  padding: 12px;\n  letter-spacing: 3px;\n  opacity: 0.8;\n  transition: all 0.5s ease-in-out;\n}\nli:hover {\n  color: #FFFFFF;\n}\n\n.coverRomboidImg {\n  position: fixed;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  height: 100vh;\n  width: 100%;\n  background-position: center;\n  opacity: 0.7;\n}\n\n.coverSquare {\n  position: fixed;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  height: calc(100vh - 80px);\n  width: calc(100vw - 80px);\n  background-position: center;\n  opacity: 0;\n}\n\n#logoLargeImg {\n  position: absolute;\n  height: 115px;\n  z-index: 5;\n}\n\n#logoSmallImg {\n  position: fixed;\n  top: 75px;\n  left: 85px;\n  height: 70px;\n  z-index: 5;\n  opacity: 0;\n  transform: scale(0.5);\n}\n\n.links {\n  position: fixed;\n  top: 90px;\n  right: 50px;\n  text-align: end;\n  opacity: 0.9;\n  z-index: 5;\n}\n.links li:after {\n  position: relative;\n  background-color: #AFD051;\n  content: \"\";\n  display: inline-block;\n  vertical-align: middle;\n  width: 25px;\n  height: 1px;\n  top: -2px;\n  left: 20px;\n  margin-right: 30px;\n  opacity: 0.9;\n  transition: all 0.5s ease-in-out;\n}\n.links li:hover {\n  opacity: 1;\n}\n.links li:hover:after {\n  background-color: #FFFFFF;\n  width: 75px;\n  opacity: 1;\n}\n\n.arrows {\n  position: fixed;\n  bottom: 7vh;\n  color: #AFD051;\n  width: 60px;\n  height: 60px;\n  left: calc(50% - 30px);\n  cursor: pointer;\n}\n\n.arrows path {\n  stroke: #AFD051;\n  fill: transparent;\n  stroke-width: 2px;\n  animation: arrow 4s infinite;\n  -webkit-animation: arrow 4s infinite;\n  transition: all 0.5s ease-in-out;\n}\n.arrows path:hover {\n  stroke: #FFFFFF;\n}\n\n@keyframes arrow {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n  80% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 0;\n  }\n}\n.arrows path.a1 {\n  animation-delay: 0.5s;\n  -webkit-animation-delay: 0.5s;\n}\n\nfooter {\n  position: fixed;\n  bottom: 5vh;\n  color: #FFFFFF;\n  font-size: 10px;\n}\nfooter a {\n  color: #AFD051;\n}\n\n#header1 {\n  position: fixed;\n  top: 25vw;\n  left: 14vw;\n  max-width: 32vw;\n  z-index: 5;\n  opacity: 0;\n}\n\n#paragraph1 {\n  position: fixed;\n  top: 25vw;\n  right: 14vw;\n  max-width: 32vw;\n  font-size: 0.9;\n  z-index: 5;\n  opacity: 0;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAMA;;;EAGI,sBAAA;EACA,SAAA;EACA,UAAA;EACA,qBAAA;EACA,gBAAA;AALJ;;AAQA;EACI,mBAAA;EACA,uBAAA;EACA,YAAA;AALJ;;AAQA;EACI,cArBI;EAsBJ,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,cAAA;EACA,mBAAA;EACA,aAAA;EACA,WAAA;EACA,gBAAA;AALJ;;AAQA;EACI,yBApCM;EAqCN,yDAAA;AALJ;;AA+BA;;;;EAII,+BAAA;EACA,gBAAA;EACA,kBAAA;EACA,mBAAA;EACA,gBAAA;EACA,cAvEK;EAwEL,YAAA;AA5BJ;;AA+BA;EACI,yCAAA;EACA,gBAAA;EACA,kBAAA;EACA,gBAAA;EACA,YAAA;AA5BJ;;AA+BA;EACI,iBAAA;AA5BJ;;AA+BA;EACI,yBAAA;EACA,+BAAA;EACA,gBAAA;EACA,kBAAA;EACA,cA5FK;EA6FL,eAAA;EACA,aAAA;EACA,mBAAA;EACA,YAAA;EACA,gCAAA;AA5BJ;AA8BI;EACI,cAnGA;AAuER;;AAkCA;EACI,eAAA;EACA,yDAAA;EACA,aAAA;EACA,WAAA;EACA,2BAAA;EACA,YAAA;AA/BJ;;AAkCA;EACI,eAAA;EACA,yDAAA;EACA,0BAAA;EACA,yBAAA;EACA,2BAAA;EACA,UAAA;AA/BJ;;AAkCA;EACI,kBAAA;EACA,aAAA;EACA,UAAA;AA/BJ;;AAkCA;EACI,eAAA;EACA,SAAA;EACA,UAAA;EACA,YAAA;EACA,UAAA;EACA,UAAA;EACA,qBAAA;AA/BJ;;AAsCA;EACI,eAAA;EACA,SAAA;EACA,WAAA;EACA,eAAA;EACA,YAAA;EACA,UAAA;AAnCJ;AAqCI;EACI,kBAAA;EACA,yBA1JC;EA2JD,WAAA;EACA,qBAAA;EACA,sBAAA;EACA,WAAA;EACA,WAAA;EACA,SAAA;EACA,UAAA;EACA,kBAAA;EACA,YAAA;EACA,gCAAA;AAnCR;AAsCI;EACI,UAAA;AApCR;AAsCQ;EACI,yBA1KJ;EA2KI,WAAA;EACA,UAAA;AApCZ;;AAyCA;EACI,eAAA;EACA,WAAA;EACA,cArLK;EAsLL,WAAA;EACA,YAAA;EACA,sBAAA;EACA,eAAA;AAtCJ;;AAyCA;EACI,eA7LK;EA8LL,iBAAA;EACA,iBAAA;EACA,4BAAA;EACA,oCAAA;EACA,gCAAA;AAtCJ;AAwCI;EACI,eApMA;AA8JR;;AA0CA;EACI;IACI,UAAA;EAvCN;EA0CE;IACI,UAAA;EAxCN;EA2CE;IACI,UAAA;EAzCN;EA4CE;IACI,UAAA;EA1CN;AACF;AA6CA;EACI,qBAAA;EACA,6BAAA;AA3CJ;;AA8CA;EACI,eAAA;EACA,WAAA;EACA,cAlOI;EAmOJ,eAAA;AA3CJ;AA6CI;EACI,cAvOC;AA4LT;;AAiDA;EACI,eAAA;EACA,SAAA;EACA,UAAA;EACA,eAAA;EACA,UAAA;EACA,UAAA;AA9CJ;;AAiDA;EACI,eAAA;EACA,SAAA;EACA,WAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,UAAA;AA9CJ","sourcesContent":["$primary: #0d3338;\r\n$accent: #AFD051;\r\n$white: #FFFFFF;\r\n$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),\r\n0 6px 6px rgba(0, 0, 0, 0.1);\r\n\r\n*,\r\n*::before,\r\n*::after {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n    text-decoration: none;\r\n    list-style: none;\r\n}\r\n\r\nhtml {\r\n    box-sizing: inherit;\r\n    scroll-behavior: smooth;\r\n    margin: auto;\r\n}\r\n\r\nbody {\r\n    color: $white;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    font-size: 0.9;\r\n    letter-spacing: 2px;\r\n    height: 100vh;\r\n    width: 100%;\r\n    overflow: hidden;\r\n}\r\n\r\n.background {\r\n    background-color: $primary;\r\n    background-image: url(../assets/mara.jpg);\r\n}\r\n\r\n// .background {\r\n//     position: absolute;\r\n//     top: 0;\r\n//     left: 0;\r\n//     height: 100vh;\r\n//     width: 100vw;\r\n//     background-image: url(../assets/mara.jpg);\r\n//     background-size: cover;\r\n// }\r\n\r\n// .background .water {\r\n//     position: absolute;\r\n//     background-image: url(../assets/water.png);\r\n//     background-size: cover;\r\n//     top: 0;\r\n//     left: 0;\r\n//     height: 100%;\r\n//     width: 100%;\r\n//     filter: url(\"#turbulence\");\r\n// }\r\n\r\n// ------------------------------ Fonts ------------------------------\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4 {\r\n    font-family: meno-banner, serif;\r\n    font-weight: 300;\r\n    font-style: normal;\r\n    letter-spacing: 3px;\r\n    line-height: 1.2;\r\n    color: $accent;\r\n    opacity: 0.9;\r\n}\r\n\r\np {\r\n    font-family: ff-real-text-pro, sans-serif;\r\n    font-weight: 100;\r\n    font-style: normal;\r\n    line-height: 1.4;\r\n    opacity: 0.9;\r\n}\r\n\r\nh1 {\r\n    font-size: 3.4rem;\r\n}\r\n\r\nli {\r\n    text-transform: uppercase;\r\n    font-family: meno-banner, serif;\r\n    font-weight: 100;\r\n    font-style: normal;\r\n    color: $accent;\r\n    cursor: pointer;\r\n    padding: 12px;\r\n    letter-spacing: 3px;\r\n    opacity: 0.8;\r\n    transition: all 0.5s ease-in-out;\r\n\r\n    &:hover {\r\n        color: $white;\r\n    }\r\n}\r\n\r\n// ------------------------------ Images  ------------------------------\r\n\r\n.coverRomboidImg {\r\n    position: fixed;\r\n    background-image: url(../assets/coverRomboid.svg);\r\n    height: 100vh;\r\n    width: 100%;\r\n    background-position: center;\r\n    opacity: 0.7;\r\n}\r\n\r\n.coverSquare {\r\n    position: fixed;\r\n    background-image: url(../assets/coverSquare.svg);\r\n    height: calc(100vh - 80px);\r\n    width: calc(100vw - 80px);\r\n    background-position: center;\r\n    opacity: 0;\r\n}\r\n\r\n#logoLargeImg {\r\n    position: absolute;\r\n    height: 115px;\r\n    z-index: 5;\r\n}\r\n\r\n#logoSmallImg {\r\n    position: fixed;\r\n    top: 75px;\r\n    left: 85px;\r\n    height: 70px;\r\n    z-index: 5;\r\n    opacity: 0;\r\n    transform: scale(0.5);\r\n}\r\n\r\n\r\n\r\n// ------------------------------ Navigtion ------------------------------\r\n\r\n.links {\r\n    position: fixed;\r\n    top: 90px;\r\n    right: 50px;\r\n    text-align: end;\r\n    opacity: 0.9;\r\n    z-index: 5;\r\n\r\n    li:after {\r\n        position: relative;\r\n        background-color: $accent;\r\n        content: \"\";\r\n        display: inline-block;\r\n        vertical-align: middle;\r\n        width: 25px;\r\n        height: 1px;\r\n        top: -2px;\r\n        left: 20px;\r\n        margin-right: 30px;\r\n        opacity: 0.9;\r\n        transition: all 0.5s ease-in-out;\r\n    }\r\n\r\n    li:hover {\r\n        opacity: 1;\r\n\r\n        &:after {\r\n            background-color: $white;\r\n            width: 75px;\r\n            opacity: 1;\r\n        }\r\n    }\r\n}\r\n\r\n.arrows {\r\n    position: fixed;\r\n    bottom: 7vh;\r\n    color: $accent;\r\n    width: 60px;\r\n    height: 60px;\r\n    left: calc(50% - 30px);\r\n    cursor: pointer;\r\n}\r\n\r\n.arrows path {\r\n    stroke: $accent;\r\n    fill: transparent;\r\n    stroke-width: 2px;\r\n    animation: arrow 4s infinite;\r\n    -webkit-animation: arrow 4s infinite;\r\n    transition: all 0.5s ease-in-out;\r\n\r\n    &:hover {\r\n        stroke: $white;\r\n    }\r\n}\r\n\r\n@keyframes arrow {\r\n    0% {\r\n        opacity: 0\r\n    }\r\n\r\n    50% {\r\n        opacity: 1\r\n    }\r\n\r\n    80% {\r\n        opacity: 0\r\n    }\r\n\r\n    100% {\r\n        opacity: 0\r\n    }\r\n}\r\n\r\n.arrows path.a1 {\r\n    animation-delay: 0.5s;\r\n    -webkit-animation-delay: 0.5s;\r\n}\r\n\r\nfooter {\r\n    position: fixed;\r\n    bottom: 5vh;\r\n    color: $white;\r\n    font-size: 10px;\r\n\r\n    a {\r\n        color: $accent;\r\n    }\r\n}\r\n\r\n// ------------------------------ Page 1 ------------------------------\r\n\r\n#header1 {\r\n    position: fixed;\r\n    top: 25vw;\r\n    left: 14vw;\r\n    max-width: 32vw;\r\n    z-index: 5;\r\n    opacity: 0;\r\n}\r\n\r\n#paragraph1 {\r\n    position: fixed;\r\n    top: 25vw;\r\n    right: 14vw;\r\n    max-width: 32vw;\r\n    font-size: 0.9;\r\n    z-index: 5;\r\n    opacity: 0;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: \"Canela Light\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n@font-face {\n  font-family: \"Canela Thin\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n@font-face {\n  font-family: \"RTRondelle Book\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n@font-face {\n  font-family: \"RTRondelle Light\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\n@font-face {\n  font-family: \"RTRondelle Thin\";\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\n}\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n  text-decoration: none;\n  list-style: none;\n}\n\nhtml {\n  box-sizing: inherit;\n  scroll-behavior: smooth;\n  margin: auto;\n}\n\nbody {\n  background-color: #0D3338;\n  color: #FFFFFF;\n  font-family: \"RTRondelle Thin\";\n  font-weight: 100;\n  font-size: 18px;\n  letter-spacing: 1px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100vh;\n  width: 100%;\n  overflow: hidden;\n}\n\nh1,\nh2,\nh3,\nh4 {\n  font-family: \"Canela Light\";\n  font-weight: 100;\n  letter-spacing: 2.5px;\n  line-height: 1.2;\n  color: #AFD051;\n  opacity: 1;\n}\n\nh1 {\n  font-size: 53px;\n}\n\np {\n  font-family: \"RTRondelle Thin\";\n  font-weight: 100;\n  line-height: 1.4;\n  opacity: 1;\n}\n\nli {\n  text-transform: uppercase;\n  font-family: \"Canela Light\";\n  font-weight: 100;\n  font-size: 15px;\n  color: #AFD051;\n  cursor: pointer;\n  padding: 12px;\n  letter-spacing: 3.5px;\n  opacity: 1;\n  transition: all 0.5s ease-in-out;\n}\nli:hover {\n  color: #FFFFFF;\n}\n\n.coverRomboidImg {\n  position: fixed;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\n  height: 100vh;\n  width: 100%;\n  background-position: center;\n  opacity: 0.62;\n}\n\n.coverSquare {\n  position: fixed;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + ");\n  height: calc(100vh - 80px);\n  width: calc(100vw - 80px);\n  background-position: center;\n  opacity: 0;\n}\n\n#logoLargeImg {\n  position: fixed;\n  height: 115.05px;\n  width: 303.56px;\n  z-index: 5;\n}\n\n#logoSmallImg {\n  position: fixed;\n  top: 75px;\n  left: 85px;\n  height: 70px;\n  z-index: 5;\n  opacity: 0;\n  transform: scale(0.8);\n  cursor: pointer;\n}\n\n.backgroundImg {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + ");\n}\n\n.links {\n  position: fixed;\n  top: 90px;\n  right: 50px;\n  text-align: end;\n  opacity: 1;\n  z-index: 5;\n}\n.links li:after {\n  position: relative;\n  background-color: #AFD051;\n  content: \"\";\n  display: inline-block;\n  vertical-align: middle;\n  width: 26px;\n  height: 1px;\n  top: -2px;\n  left: 20px;\n  margin-right: 30px;\n  opacity: 1;\n  transition: all 0.5s ease-in-out;\n}\n.links li:hover {\n  opacity: 1;\n}\n.links li:hover:after {\n  background-color: #FFFFFF;\n  width: 72px;\n  opacity: 1;\n}\n\n.arrows {\n  position: fixed;\n  bottom: 7vh;\n  color: #AFD051;\n  width: 60px;\n  height: 60px;\n  left: calc(50% - 30px);\n  cursor: pointer;\n}\n\n.arrows path {\n  stroke: #AFD051;\n  fill: transparent;\n  stroke-width: 2px;\n  animation: arrow 4s infinite;\n  -webkit-animation: arrow 4s infinite;\n  transition: all 0.5s ease-in-out;\n}\n.arrows path:hover {\n  stroke: #FFFFFF;\n}\n\n@keyframes arrow {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n  80% {\n    opacity: 0;\n  }\n  100% {\n    opacity: 0;\n  }\n}\n.arrows path.a1 {\n  animation-delay: 0.5s;\n  -webkit-animation-delay: 0.5s;\n}\n\nfooter {\n  position: fixed;\n  bottom: 5vh;\n  color: #FFFFFF;\n  font-family: \"RTRondelle Thin\";\n  font-weight: 100;\n  font-size: 11px;\n  letter-spacing: 1.25px;\n}\nfooter a {\n  color: #AFD051;\n}\n\n#header1 {\n  position: fixed;\n  top: 25vw;\n  left: 15vw;\n  max-width: 30vw;\n  opacity: 0;\n}\n\n#paragraph1 {\n  position: fixed;\n  top: 25vw;\n  right: 15vw;\n  max-width: 30vw;\n  opacity: 0;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAAA;EACI,2BAAA;EACA,4CAAA;AACJ;AAEA;EACI,0BAAA;EACA,4CAAA;AAAJ;AAGA;EACI,8BAAA;EACA,4CAAA;AADJ;AAIA;EACI,+BAAA;EACA,4CAAA;AAFJ;AAKA;EACI,8BAAA;EACA,4CAAA;AAHJ;AAqBA;;;EAGI,sBAAA;EACA,SAAA;EACA,UAAA;EACA,qBAAA;EACA,gBAAA;AAnBJ;;AAsBA;EACI,mBAAA;EACA,uBAAA;EACA,YAAA;AAnBJ;;AAsBA;EAEI,yBA/BM;EAgCN,cA9BI;EA+BJ,8BAtBQ;EAuBR,gBAAA;EACA,eAAA;EACA,mBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;EACA,aAAA;EACA,WAAA;EACA,gBAAA;AApBJ;;AA8CA;;;;EAII,2BAlEW;EAmEX,gBAAA;EACA,qBAAA;EACA,gBAAA;EACA,cA5EK;EA6EL,UAAA;AA3CJ;;AA8CA;EACI,eAAA;AA3CJ;;AA8CA;EACI,8BA3EQ;EA4ER,gBAAA;EACA,gBAAA;EACA,UAAA;AA3CJ;;AA8CA;EACI,yBAAA;EACA,2BAvFW;EAwFX,gBAAA;EACA,eAAA;EACA,cAhGK;EAiGL,eAAA;EACA,aAAA;EACA,qBAAA;EACA,UAAA;EACA,gCAAA;AA3CJ;AA6CI;EACI,cAvGA;AA4DR;;AAiDA;EACI,eAAA;EACA,yDAAA;EACA,aAAA;EACA,WAAA;EACA,2BAAA;EACA,aAAA;AA9CJ;;AAiDA;EACI,eAAA;EACA,yDAAA;EACA,0BAAA;EACA,yBAAA;EACA,2BAAA;EACA,UAAA;AA9CJ;;AAiDA;EACI,eAAA;EACA,gBAAA;EACA,eAAA;EACA,UAAA;AA9CJ;;AAiDA;EACI,eAAA;EACA,SAAA;EACA,UAAA;EACA,YAAA;EACA,UAAA;EACA,UAAA;EACA,qBAAA;EACA,eAAA;AA9CJ;;AAiDA;EACI,yDAAA;AA9CJ;;AAmDA;EACI,eAAA;EACA,SAAA;EACA,WAAA;EACA,eAAA;EACA,UAAA;EACA,UAAA;AAhDJ;AAkDI;EACI,kBAAA;EACA,yBAlKC;EAmKD,WAAA;EACA,qBAAA;EACA,sBAAA;EACA,WAAA;EACA,WAAA;EACA,SAAA;EACA,UAAA;EACA,kBAAA;EACA,UAAA;EACA,gCAAA;AAhDR;AAmDI;EACI,UAAA;AAjDR;AAmDQ;EACI,yBAlLJ;EAmLI,WAAA;EACA,UAAA;AAjDZ;;AAsDA;EACI,eAAA;EACA,WAAA;EACA,cA7LK;EA8LL,WAAA;EACA,YAAA;EACA,sBAAA;EACA,eAAA;AAnDJ;;AAsDA;EACI,eArMK;EAsML,iBAAA;EACA,iBAAA;EACA,4BAAA;EACA,oCAAA;EACA,gCAAA;AAnDJ;AAqDI;EACI,eA5MA;AAyJR;;AAuDA;EACI;IACI,UAAA;EApDN;EAuDE;IACI,UAAA;EArDN;EAwDE;IACI,UAAA;EAtDN;EAyDE;IACI,UAAA;EAvDN;AACF;AA0DA;EACI,qBAAA;EACA,6BAAA;AAxDJ;;AA2DA;EACI,eAAA;EACA,WAAA;EACA,cA1OI;EA2OJ,8BAlOQ;EAmOR,gBAAA;EACA,eAAA;EACA,sBAAA;AAxDJ;AA0DI;EACI,cAlPC;AA0LT;;AA8DA;EACI,eAAA;EACA,SAAA;EACA,UAAA;EACA,eAAA;EACA,UAAA;AA3DJ;;AA+DA;EACI,eAAA;EACA,SAAA;EACA,WAAA;EACA,eAAA;EACA,UAAA;AA5DJ","sourcesContent":["@font-face {\r\n    font-family: \"Canela Light\";\r\n    src: url(/src/assets/fonts/Canela/Canela-Light.otf);\r\n}\r\n\r\n@font-face {\r\n    font-family: \"Canela Thin\";\r\n    src: url(/src/assets/fonts/Canela/Canela-Thin.otf);\r\n}\r\n\r\n@font-face {\r\n    font-family: \"RTRondelle Book\";\r\n    src: url(/src/assets/fonts/RTRondelle/RTRondelle-Book.otf);\r\n}\r\n\r\n@font-face {\r\n    font-family: \"RTRondelle Light\";\r\n    src: url(/src/assets/fonts/RTRondelle/RTRondelle-Light.otf);\r\n}\r\n\r\n@font-face {\r\n    font-family: \"RTRondelle Thin\";\r\n    src: url(/src/assets/fonts/RTRondelle/RTRondelle-Thin.otf);\r\n}\r\n\r\n// ------------------------------ Variables ------------------------------\r\n\r\n$primary: #0D3338;\r\n$accent: #AFD051;\r\n$white: #FFFFFF;\r\n\r\n// $box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),\r\n// 0 6px 6px rgba(0, 0, 0, 0.1);\r\n\r\n$header-light: 'Canela Light';\r\n$header-thin: 'Canela Thin';\r\n$font-book: 'RTRondelle Book';\r\n$font-light: 'RTRondelle Light';\r\n$font-thin: 'RTRondelle Thin';\r\n\r\n*,\r\n*::before,\r\n*::after {\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    padding: 0;\r\n    text-decoration: none;\r\n    list-style: none;\r\n}\r\n\r\nhtml {\r\n    box-sizing: inherit;\r\n    scroll-behavior: smooth;\r\n    margin: auto;\r\n}\r\n\r\nbody {\r\n\r\n    background-color: $primary;\r\n    color: $white;\r\n    font-family: $font-thin;\r\n    font-weight: 100;\r\n    font-size: 18px;\r\n    letter-spacing: 1px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    height: 100vh;\r\n    width: 100%;\r\n    overflow: hidden;\r\n}\r\n\r\n// .background {\r\n//     position: absolute;\r\n//     top: 0;\r\n//     left: 0;\r\n//     height: 100vh;\r\n//     width: 100vw;\r\n//     background-image: url(../assets/mara.jpg);\r\n//     background-size: cover;\r\n// }\r\n\r\n// .background .water {\r\n//     position: absolute;\r\n//     background-image: url(../assets/water.png);\r\n//     background-size: cover;\r\n//     top: 0;\r\n//     left: 0;\r\n//     height: 100%;\r\n//     width: 100%;\r\n//     filter: url(\"#turbulence\");\r\n// }\r\n\r\n// ------------------------------ Fonts ------------------------------\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4 {\r\n    font-family: $header-light;\r\n    font-weight: 100;\r\n    letter-spacing: 2.5px;\r\n    line-height: 1.2;\r\n    color: $accent;\r\n    opacity: 1;\r\n}\r\n\r\nh1 {\r\n    font-size: 53px;\r\n}\r\n\r\np {\r\n    font-family: $font-thin;\r\n    font-weight: 100;\r\n    line-height: 1.4;\r\n    opacity: 1;\r\n}\r\n\r\nli {\r\n    text-transform: uppercase;\r\n    font-family: $header-light;\r\n    font-weight: 100;\r\n    font-size: 15px;\r\n    color: $accent;\r\n    cursor: pointer;\r\n    padding: 12px;\r\n    letter-spacing: 3.5px;\r\n    opacity: 1;\r\n    transition: all 0.5s ease-in-out;\r\n\r\n    &:hover {\r\n        color: $white;\r\n    }\r\n}\r\n\r\n// ------------------------------ Images  ------------------------------\r\n\r\n.coverRomboidImg {\r\n    position: fixed;\r\n    background-image: url(../assets/images/coverRomboid.svg);\r\n    height: 100vh;\r\n    width: 100%;\r\n    background-position: center;\r\n    opacity: 0.62;\r\n}\r\n\r\n.coverSquare {\r\n    position: fixed;\r\n    background-image: url(../assets/images/coverSquare.svg);\r\n    height: calc(100vh - 80px);\r\n    width: calc(100vw - 80px);\r\n    background-position: center;\r\n    opacity: 0;\r\n}\r\n\r\n#logoLargeImg {\r\n    position: fixed;\r\n    height: 115.05px;\r\n    width: 303.56px;\r\n    z-index: 5;\r\n}\r\n\r\n#logoSmallImg {\r\n    position: fixed;\r\n    top: 75px;\r\n    left: 85px;\r\n    height: 70px;\r\n    z-index: 5;\r\n    opacity: 0;\r\n    transform: scale(0.8);\r\n    cursor: pointer;\r\n}\r\n\r\n.backgroundImg {\r\n    background-image: url(../assets/images/mara.jpg);\r\n}\r\n\r\n// ------------------------------ Navigtion ------------------------------\r\n\r\n.links {\r\n    position: fixed;\r\n    top: 90px;\r\n    right: 50px;\r\n    text-align: end;\r\n    opacity: 1;\r\n    z-index: 5;\r\n\r\n    li:after {\r\n        position: relative;\r\n        background-color: $accent;\r\n        content: \"\";\r\n        display: inline-block;\r\n        vertical-align: middle;\r\n        width: 26px;\r\n        height: 1px;\r\n        top: -2px;\r\n        left: 20px;\r\n        margin-right: 30px;\r\n        opacity: 1;\r\n        transition: all 0.5s ease-in-out;\r\n    }\r\n\r\n    li:hover {\r\n        opacity: 1;\r\n\r\n        &:after {\r\n            background-color: $white;\r\n            width: 72px;\r\n            opacity: 1;\r\n        }\r\n    }\r\n}\r\n\r\n.arrows {\r\n    position: fixed;\r\n    bottom: 7vh;\r\n    color: $accent;\r\n    width: 60px;\r\n    height: 60px;\r\n    left: calc(50% - 30px);\r\n    cursor: pointer;\r\n}\r\n\r\n.arrows path {\r\n    stroke: $accent;\r\n    fill: transparent;\r\n    stroke-width: 2px;\r\n    animation: arrow 4s infinite;\r\n    -webkit-animation: arrow 4s infinite;\r\n    transition: all 0.5s ease-in-out;\r\n\r\n    &:hover {\r\n        stroke: $white;\r\n    }\r\n}\r\n\r\n@keyframes arrow {\r\n    0% {\r\n        opacity: 0\r\n    }\r\n\r\n    50% {\r\n        opacity: 1\r\n    }\r\n\r\n    80% {\r\n        opacity: 0\r\n    }\r\n\r\n    100% {\r\n        opacity: 0\r\n    }\r\n}\r\n\r\n.arrows path.a1 {\r\n    animation-delay: 0.5s;\r\n    -webkit-animation-delay: 0.5s;\r\n}\r\n\r\nfooter {\r\n    position: fixed;\r\n    bottom: 5vh;\r\n    color: $white;\r\n    font-family: $font-thin;\r\n    font-weight: 100;\r\n    font-size: 11px;\r\n    letter-spacing: 1.25px;\r\n\r\n    a {\r\n        color: $accent;\r\n    }\r\n}\r\n\r\n// ------------------------------ Page 1 ------------------------------\r\n\r\n#header1 {\r\n    position: fixed;\r\n    top: 25vw;\r\n    left: 15vw;\r\n    max-width: 30vw;\r\n    opacity: 0;\r\n\r\n}\r\n\r\n#paragraph1 {\r\n    position: fixed;\r\n    top: 25vw;\r\n    right: 15vw;\r\n    max-width: 30vw;\r\n    opacity: 0;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6227,30 +6237,80 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/assets/coverRomboid.svg":
-/*!*************************************!*\
-  !*** ./src/assets/coverRomboid.svg ***!
-  \*************************************/
+/***/ "./src/assets/fonts/Canela/Canela-Light.otf":
+/*!**************************************************!*\
+  !*** ./src/assets/fonts/Canela/Canela-Light.otf ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Canela-Light.otf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Canela/Canela-Thin.otf":
+/*!*************************************************!*\
+  !*** ./src/assets/fonts/Canela/Canela-Thin.otf ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "Canela-Thin.otf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/RTRondelle/RTRondelle-Book.otf":
+/*!*********************************************************!*\
+  !*** ./src/assets/fonts/RTRondelle/RTRondelle-Book.otf ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "RTRondelle-Book.otf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/RTRondelle/RTRondelle-Light.otf":
+/*!**********************************************************!*\
+  !*** ./src/assets/fonts/RTRondelle/RTRondelle-Light.otf ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "RTRondelle-Light.otf";
+
+/***/ }),
+
+/***/ "./src/assets/fonts/RTRondelle/RTRondelle-Thin.otf":
+/*!*********************************************************!*\
+  !*** ./src/assets/fonts/RTRondelle/RTRondelle-Thin.otf ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "RTRondelle-Thin.otf";
+
+/***/ }),
+
+/***/ "./src/assets/images/coverRomboid.svg":
+/*!********************************************!*\
+  !*** ./src/assets/images/coverRomboid.svg ***!
+  \********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "coverRomboid.svg";
 
 /***/ }),
 
-/***/ "./src/assets/coverSquare.svg":
-/*!************************************!*\
-  !*** ./src/assets/coverSquare.svg ***!
-  \************************************/
+/***/ "./src/assets/images/coverSquare.svg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/coverSquare.svg ***!
+  \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "coverSquare.svg";
 
 /***/ }),
 
-/***/ "./src/assets/mara.jpg":
-/*!*****************************!*\
-  !*** ./src/assets/mara.jpg ***!
-  \*****************************/
+/***/ "./src/assets/images/mara.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/mara.jpg ***!
+  \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "mara.jpg";
@@ -6403,6 +6463,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/gsap-core.js");
 
 
+var sizes = {
+  width: window.innerWidth,
+  height: window.innerHeight
+};
 var btnHome = document.querySelector('.btnHome');
 var btnAbout = document.querySelector('.btnAbout');
 var romboid = document.querySelector('.coverRomboidImg');
@@ -6410,7 +6474,8 @@ var square = document.querySelector('.coverSquare');
 var logoSml = document.getElementById('logoSmallImg');
 var logoLrg = document.getElementById('logoLargeImg');
 var header = document.getElementById('header1');
-var paragraph = document.getElementById('paragraph1');
+var paragraph = document.getElementById('paragraph1'); // const maraImg = document.getElementById('backgroundImg').width = window.innerWidth * 1
+
 var tl = gsap__WEBPACK_IMPORTED_MODULE_1__.gsap.timeline({
   paused: true,
   reversed: true
@@ -6421,12 +6486,12 @@ tl.to(romboid, 2.5, {
   ease: gsap__WEBPACK_IMPORTED_MODULE_2__.Power2.easeOut
 });
 tl.to(logoLrg, 2.5, {
-  scale: 0.5,
+  scale: 0.8,
   opacity: 0,
   ease: gsap__WEBPACK_IMPORTED_MODULE_2__.Power2.easeOut
 }, "-=2.5");
 tl.to(square, 2.5, {
-  opacity: 0.7,
+  opacity: 0.62,
   ease: gsap__WEBPACK_IMPORTED_MODULE_2__.Power2.easeOut
 }, "-=2.25");
 tl.to(logoSml, 2.25, {
@@ -6464,6 +6529,18 @@ btnHome.addEventListener('click', function (e) {
 
   tl.reverse();
 });
+logoSml.addEventListener('click', function () {
+  tl.play();
+});
+logoSml.addEventListener('click', function (e) {
+  if (tl.isActive()) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    return false;
+  }
+
+  tl.reverse();
+});
 
 function toggleTween(tween) {
   tween.reversed() ? tween.play() : tween.reversed();
@@ -6472,4 +6549,4 @@ function toggleTween(tween) {
 
 /******/ })()
 ;
-//# sourceMappingURL=animationsea7a98b7a7f802de987c.js.map
+//# sourceMappingURL=animations4df4e7324474c35bf882.js.map
