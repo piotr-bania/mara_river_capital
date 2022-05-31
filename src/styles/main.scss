@@ -110,6 +110,15 @@ h1 {
     font-size: 53px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 24px;
+    color: $white;
+}
+
 p {
     font-family: $font-thin;
     font-weight: 100;
@@ -227,7 +236,6 @@ li {
     fill: transparent;
     stroke-width: 2px;
     animation: arrow 4s infinite;
-    -webkit-animation: arrow 4s infinite;
     transition: all 0.5s ease-in-out;
 
     &:hover {
@@ -255,8 +263,9 @@ li {
 
 .arrows path.a1 {
     animation-delay: 0.5s;
-    -webkit-animation-delay: 0.5s;
 }
+
+// ------------------------------ Footer ------------------------------
 
 footer {
     position: fixed;
@@ -272,21 +281,80 @@ footer {
     }
 }
 
-// ------------------------------ Page 1 ------------------------------
+// ------------------------------ About ------------------------------
 
 #header1 {
     position: fixed;
     top: 25vw;
     left: 15vw;
-    max-width: 30vw;
+    width: 30vw;
     opacity: 0;
-
 }
 
 #paragraph1 {
     position: fixed;
     top: 25vw;
     right: 15vw;
-    max-width: 30vw;
+    width: 30vw;
+    opacity: 0;
+}
+
+// ------------------------------ Biographies ------------------------------
+
+#header2a {
+    position: fixed;
+    top: 23vw;
+    left: 15vw;
+    width: 30vw;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        color: $white;
+    }
+}
+
+#header2b {
+    position: fixed;
+    top: 26vw;
+    left: 15vw;
+    width: 30vw;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        color: $white;
+    }
+}
+
+#header2c {
+    position: fixed;
+    top: 29vw;
+    left: 15vw;
+    width: 30vw;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        color: $white;
+    }
+}
+
+#subheader2 {
+    position: fixed;
+    top: 23vw;
+    right: 18vw;
+    width: 50vw;
+    opacity: 0;
+}
+
+#paragraph2a {
+    position: fixed;
+    top: 26vw;
+    right: 18vw;
+    width: 50vw;
     opacity: 0;
 }

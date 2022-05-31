@@ -13,58 +13,75 @@
 </head>
 
 <body>
-    <!-- <div class="background">
-        <div class="water"></div>
+    <!-- ---------------- Navigation ---------------- -->
+    <div>
+        <ul class="links">
+            <li class="btnHome">Home</li>
+            <li class="btnAbout">About</li>
+            <li class="btnBiographies">Biographies</li>
+            <li class="btnContactUs">Contact Us</li>
+        </ul>
     </div>
-    <svg>
-        <filter id="turbulence" x="0" y="0" width="100%" height="100%">
-            <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"></feTurbulence>
-            <feDisplacementMap scale="20" in="SourceGraphic"></feDisplacementMap>
-            <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="60s" keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"/>
-        </filter>
-    </svg> -->
 
+    <!-- ---------------- Home ---------------- -->
     <img id="backgroundImg">
     <img class="coverRomboidImg">
     <img class="coverSquare">
     <img id="logoSmallImg" alt="logo">
     <img id="logoLargeImg" alt="logo">
 
-    <header>
-        <nav>
-            <div class="nav-closed">
-                <ul class="links">
-                    <li class="btnHome">Home</li>
-                    <li class="btnAbout">About</li>
-                    <li class="btnBiographies">Biographies</li>
-                    <li class="btnContactUs">Contact Us</li>
-                </ul>
-            </div>
+    <!-- ---------------- About ---------------- -->
+    <div>
+        <h1 id="header1">Asymmetric investments sourced from developed mid-markets</h1>
+        <p id="paragraph1">
+            Mara River is a Dallas-based investment firm launched in 2019.
+            <br>
+            Our mission is to capture the dynamic potential of small to midcap qeuities without the typical
+            volatility.
+            <br><br>
+            We conduct original research at scale to identify high-potential investments in developed markets,
+            applying
+            our hedge fund background and cross-asset class risk management expertise to deliver asymmetric,
+            uncorrelated returns with low volatility.
+        </p>
+    </div>
 
-            <div class="nav-open">
-                <h1 id="header1">Asymmetric investments sourced from developed mid-markets</h1>
-                <p id="paragraph1">
-                    Mara River is a Dallas-based investment firm launched in 2019.
-                    <br>
-                    Our mission is to capture the dynamic potential of small to midcap qeuities without the typical
-                    volatility.
-                    <br><br>
-                    We conduct original research at scale to identify high-potential investments in developed markets,
-                    applying
-                    our hedge fund background and cross-asset class risk management expertise to deliver asymmetric,
-                    uncorrelated returns with low volatility.
-                </p>
-            </div>
-        </nav>
-    </header>
+    <!-- ---------------- Biographies ---------------- -->
 
-    <!-- ------------------------------ Scroll arrows ------------------------------ -->
+    <div>
+        <h2 id="header2a">Richard Evans</h2>
+        <h3 id="subheader2">Co-Managing Partner & CIO</h3>
+        <br><br>
+        <p id="paragraph2a">
+            Richard co-founded Mara River Capital in 2018. He was previously a senior analyst at King Street Capital, a
+            ~$20 billion multi-strategy hedge fund which he joined in 2005. At King Street, Richard covered a wide range
+            of industries and played a key role in building King Street’s European analyst team.
+            <br><br>
+            Prior to joining King Street, he worked as an analyst on the propriety trading desk at Nomura, having joined
+            in 2003 from E&Y. Richard began his career in 1998 working for the restructuring division of Arthur Andersen
+            (acquired by EY), where his work included the direct supervision of operating businesses. He is a Chartered
+            Accountant and holds a BSc (Hons) Accounting & Finance 1st Class from the University of Warwick.
+        </p>
 
+        <h2 id="header2b">Sam Douglas</h2>
+
+        <h2 id="header2c">Oliver Davey</h2>
+    </div>
+
+
+
+    <!-- ---------------- Contact Us ---------------- -->
+
+
+
+
+
+    <!-- ---------------- Scroll arrows ---------------- -->
     <svg class="arrows">
         <path class="a1" d="M0 0 L30 32 L60 0"></path>
     </svg>
 
-    <!-- ------------------------------ Copyright ------------------------------ -->
+    <!-- ---------------- Copyright ---------------- -->
 
     <footer>
         <div class="copyright">
@@ -72,7 +89,6 @@
             </p>
         </div>
     </footer>
-
 </body>
 
 </html>
