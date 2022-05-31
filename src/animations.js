@@ -6,7 +6,8 @@ import {
     Power2,
     Power3,
     Power4,
-    Circ
+    Circ,
+    Sine
 } from "gsap"
 
 const sizes = {
@@ -23,7 +24,6 @@ const logoLrg = document.getElementById('logoLargeImg')
 const header = document.getElementById('header1')
 const paragraph = document.getElementById('paragraph1')
 const maraImg = document.getElementById('backgroundImg')
-// .width = window.innerWidth * 1
 
 const tl = gsap.timeline({
     paused: true,
@@ -31,25 +31,27 @@ const tl = gsap.timeline({
 })
 
 tl.to(romboid, 2.5, {
-    scale: 7,
+    scale: 5,
     opacity: 0,
-    ease: Power1.easeOut
+    ease: Power2.easeOut
 })
 
-tl.to(logoLrg, 2, {
-    scale: 0.9,
+tl.to(logoLrg, 2.5, {
+    scale: 0.8,
     opacity: 0,
-    ease: Power1.easeOut,
+    ease: Power2.easeOut,
 }, "-=2.5")
 
 tl.to(maraImg, 2.5, {
-    scale: 0.8,
+    scale: 1.6,
+    x: -25,
+    y: 210,
     ease: Power2.easeOut,
 }, "-=2.5")
 
 tl.to(square, 2.5, {
     opacity: 0.62,
-    ease: Power0.easeOut
+    ease: Power2.easeOut
 }, "-=2.5")
 
 tl.to(logoSml, 2.5, {
@@ -61,7 +63,7 @@ tl.to(logoSml, 2.5, {
 tl.fromTo(header, {
     opacity: 0,
     y: 250,
-    ease: Power4.easeOut
+    ease: Power2.easeOut
 }, {
     opacity: 1,
     y: 0,
@@ -71,7 +73,7 @@ tl.fromTo(header, {
 tl.fromTo(paragraph, {
     opacity: 0,
     y: 800,
-    ease: Power4.easeOut,
+    ease: Power2.easeOut,
 }, {
     opacity: 1,
     y: 0,
