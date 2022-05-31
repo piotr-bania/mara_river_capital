@@ -22,7 +22,7 @@ html {
 
 body {
     // background-color: $primary-color;
-    background-image: url(../assets/mara.jpg);
+    // background-image: url(../assets/mara.jpg);
     color: $white;
     display: flex;
     flex-direction: column;
@@ -34,6 +34,27 @@ body {
     width: 100%;
     overflow: hidden;
 }
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../assets/mara.jpg);
+    background-size: cover;
+  }
+
+  .background .water {
+    position: absolute;
+    background-image: url(../assets/water.png);
+    background-size: cover;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    filter: url("#turbulence");
+  }
 
 // ------------------------------ Fonts ------------------------------
 
