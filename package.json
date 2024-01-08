@@ -1,0 +1,26 @@
+{
+  "name": "mara_river_capital",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.93.0",
+    "@react-three/fiber": "^8.15.13",
+    "framer-motion": "^10.17.9",
+    "framer-motion-3d": "^10.17.9",
+    "glslify-loader": "^2.0.0",
+    "next": "14.0.4",
+    "raw-loader": "^4.0.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "sass": "^1.69.7"
+  }
+}
